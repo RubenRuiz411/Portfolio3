@@ -1,0 +1,64 @@
+/* // general style sheet  */
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000000;
+  display: block;
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}
+
+
+
+
+
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 30em;
+  margin-right: 30em;
+}
+
+.my-pic {
+	clip-path: circle();
+  width: 250px;
+}
+
+.label {
+  text-align: left;
+}
+
+footer.footer {
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+}
